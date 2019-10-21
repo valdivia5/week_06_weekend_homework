@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Sticker List App</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
+  </head>
+
+  <body>
+    <form id="new-item-form">
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="sticker" class="primary">Sticker name</label>
+          <input type="text" id="sticker" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="artist" class="primary">Artist</label>
+          <input type="text" id="artist" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="category" class="primary">Category</label>
+          <select id="category">
+            <option value="" disabled selected></option>
+            <option value="Drawings">Drawings</option>
+            <option value="Animals">Animals</option>
+            <option value="Scenes">Scenes</option>
+          </select>
+        </div>
+      </div>
+      <input type="submit" value="Save"/>
+    </form>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+    <h1>Sticker List</h1>
+    <div id="sticker-list"></div>
+    <button id="Delete-all">Delete All</button>
+  </body>
+
+</html>

@@ -1,0 +1,46 @@
+body {
+  background-size: 60%;
+  background-position: center;
+  background-repeat: round;
+  font-family: Helvetica;
+  color: white;
+  background-color: lightgreen
+}
+
+#form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-item {
+  margin-right: 3.00rem;
+}
+
+label.primary {
+  display: block;
+  margin: 0.4em 0;
+}
+
+label::after {
+  content: ":";
+}
+
+button, input[type="submit"] {
+  margin-top: 1rem;
+}
+
+#sticker-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.sticker-list-item {
+  margin: 1.0rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 5px solid #20437c;
+  border-radius: 10%;
+  background: #ddeaff;
+  text-align:center;
+}
